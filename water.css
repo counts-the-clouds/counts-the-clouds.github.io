@@ -1,0 +1,31 @@
+@font-face {
+  font-family: baskerville;
+  src: url("./assets/fonts/LibreBaskerville-Regular.ttf");
+}
+
+body {
+  color: rgba(230,230,230,0.8);
+  background-color: rgb(10,10,15);
+  font-family: "baskerville";
+  text-shadow: 5px 5px 20px rgb(0, 0, 0, 0.6);
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  background-image: url("./assets/background.png");
+  background-size: cover;
+}
